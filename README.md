@@ -1,2 +1,3 @@
-# Design Pattern Final
-Created with CodeSandbox
+# Mediator/ Middleware Design Pattern
+
+Use a central mediator object to handle communication between components
