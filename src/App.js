@@ -1,6 +1,8 @@
 import "./styles.css";
 import image from "./images/proxy_pattern.JPG";
-import coin from "./utils/proxy";
+import coin from "./utils/proxy_as_a_cache";
+import proxyPerson from "./utils/proxy";
+import proxyPersonReflect from "./utils/proxy_with_reflect";
 
 export default function App() {
   const getBitCoin = () => {
@@ -15,6 +17,18 @@ export default function App() {
     console.log(coin.getCoinData("Dogcoin"));
   };
 
+  const displayProxy = () => {
+    console.log("----Proxy----");
+    proxyPerson.name;
+    proxyPerson.name = "Nuwan Chathuranga";
+  };
+
+  const displayProxyReflect = () => {
+    console.log("----- Proxy with Reflect ---------");
+    proxyPersonReflect.age;
+    proxyPersonReflect.age = 40;
+  };
+
   return (
     <div className="App">
       <h1>Proxy Design Pattern</h1>
@@ -26,7 +40,6 @@ export default function App() {
       </h2>
       <img src={image} width={1200} height={300} />
       <hr />
-
       <h3>
         Only calling to the API at first fetch, afterwords getting data from the
         cache (proxy)
@@ -34,6 +47,10 @@ export default function App() {
       <button onClick={getBitCoin}>Bitcoin</button>
       <button onClick={getLiteCoin}>Litecoin</button>
       <button onClick={getDogCoin}>Dogcoin</button>
+      <hr />
+      <h3>Using Javascript inbuilt Proxy Object and using Reflect method</h3>
+      <button onClick={displayProxy}>Proxy Object</button>
+      <button onClick={displayProxyReflect}>Proxy Object with Reflect</button>
     </div>
   );
 }

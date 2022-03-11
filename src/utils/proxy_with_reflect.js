@@ -6,12 +6,11 @@ const person = {
 
 const proxyPerson = new Proxy(person, {
   get: (obj, prop) => {
-    console.log(`The value of ${prop} is ${obj[prop]}`);
+    console.log(`The value of ${prop} is ${Reflect.get(obj, prop)}`);
   },
   set: (obj, prop, value) => {
     console.log(`Change the value of ${prop} from ${obj[prop]} to ${value}`);
-    obj[prop] = value;
-    return true;
+    return Reflect.set(obj, prop, value);
   },
 });
 
