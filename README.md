@@ -1,5 +1,7 @@
-# Design Pattern Final
+# Singleton Design Pattern
 
-Created with CodeSandbox
+Helps to limit the nuber of instances of an object to ONE.
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/test.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/singleton/pattern/src/images/singleton_pattern.JPG?raw=true)
+
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/singleton/pattern/src/images/singleton_pattern_1.JPG?raw=true)
