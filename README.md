@@ -15,4 +15,4 @@ concerns by separating this process into two parts:
 2. Container Components: Components that care about what data is shown
    to the user.
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/test.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/container_presentational/src/images/container_presentational_pattern.JPG?raw=true)
