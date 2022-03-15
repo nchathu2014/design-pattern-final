@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./styles.css";
 import image from "./images/singleton_pattern.JPG";
 import image1 from "./images/singleton_pattern_1.JPG";
+import image2 from "./images/singleton_pattern_2.JPG";
 import ComponentA from "./components/ComponentA";
 
 import SingletonCounter from "./utils/singleton";
@@ -32,6 +33,7 @@ export default function App() {
       </h2>
       <img src={image} width={500} height={500} />
       <img src={image1} width={500} height={500} />
+      <img src={image2} width={500} height={800} />
 
       <hr />
       <h1>{count}</h1>
