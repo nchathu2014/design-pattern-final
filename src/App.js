@@ -1,5 +1,5 @@
 import "./styles.css";
-import image from "./images/test.jpg";
+import image from "./images/mixin_pattern.JPG";
 
 import dog from "./utils/mixin";
 
@@ -25,7 +25,7 @@ export default function App() {
           functionality to objects or classes without inheritance.
         </p>
       </h2>
-      <img src={image} width={500} height={500} />
+      <img src={image} width={800} height={800} />
 
       <hr />
     </div>

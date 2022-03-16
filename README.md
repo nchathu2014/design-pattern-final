@@ -7,4 +7,4 @@ another object or class, without using inheritance. We can't use mixins on their
 own: their sole purpose is to add functionality to objects or classes without
 inheritance.
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/mixin/src/images/test.jpg?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/mixin/src/images/mixin_pattern.JPG?raw=true)
