@@ -10,4 +10,4 @@ Besides being able to split your code into smaller reusable
 pieces, modules allow you to keep certain values within your file
 private
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/test.jpg?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/module/src/images/module_pattern.JPG.jpg?raw=true)
