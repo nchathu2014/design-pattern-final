@@ -1,8 +1,13 @@
 import "./styles.css";
 import image from "./images/facade_pattern.JPG";
 import image1 from "./images/facade_pattern_1.JPG";
+import { getPostsByUser } from "./utils/facade";
+import { useEffect } from "react";
 
 export default function App() {
+  useEffect(() => {
+    getPostsByUser();
+  }, []);
   return (
     <div className="App">
       <h1>Facade Design Pattern</h1>
