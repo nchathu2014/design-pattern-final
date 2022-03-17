@@ -14,4 +14,4 @@ component. The HOC contains certain logic that we want to apply to the
 component that we pass as a parameter. After applying that logic, the HOC
 returns the element with the additional logic.
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/hoc/pattern/hoc/src/images/hoc_pattern.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/hoc/src/images/hoc_pattern.JPG?raw=true)
