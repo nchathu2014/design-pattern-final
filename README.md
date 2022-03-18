@@ -1,3 +1,9 @@
+Resources:
+
+1. https://www.dofactory.com/javascript/design-patterns/abstract-factory
+
+2. https://riptutorial.com/javascript/topic/696/notifications-api
+
 # Design Pattern Final
 
 Created with CodeSandbox
