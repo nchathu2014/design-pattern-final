@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Abstract Design Pattern</h1>
+      <h1>Abstract Factory Design Pattern</h1>
       <h2>
         Abstract Factory is a creational design pattern that lets you produce
         families of related objects without specifying their concrete classes.
