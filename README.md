@@ -1,11 +1,11 @@
-Resources:
+# Composite Design Pattern
 
-1. https://www.dofactory.com/javascript/design-patterns/abstract-factory
+Composite is a structural design pattern that lets you compose
+objects into tree structures and then work with these
+structures as if they were individual objects.
 
-2. https://riptutorial.com/javascript/topic/696/notifications-api
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/composite/src/images/pattern_composite.JPG?raw=true)
 
-# Design Pattern Final
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/composite/src/images/pattern_composite_1.JPG?raw=true)
 
-Created with CodeSandbox
-
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/test.jpg?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/composite/src/images/pattern_composite_2.JPG?raw=true)
