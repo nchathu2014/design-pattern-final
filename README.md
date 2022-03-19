@@ -1,11 +1,10 @@
-Resources:
+# Chain of Responsibility Design Pattern (CoR, Chain of Command)
 
-1. https://www.dofactory.com/javascript/design-patterns/abstract-factory
+Chain of Responsibility is a behavioral design pattern that lets
+you pass requests along a chain of handlers. Upon receiving a
+request, each handler decides either to process the request or
+to pass it to the next handler in the chain.
 
-2. https://riptutorial.com/javascript/topic/696/notifications-api
-
-# Design Pattern Final
-
-Created with CodeSandbox
+The Chain of Responsibility pattern provides a chain of loosely coupled objects one of which can satisfy a request. This pattern is essentially a linear search for an object that can handle a particular request.
 
 ![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/test.jpg?raw=true)
