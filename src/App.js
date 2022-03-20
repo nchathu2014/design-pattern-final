@@ -1,7 +1,7 @@
 import "./styles.css";
-import image from "./images/momento_pattern.JPG";
-import image1 from "./images/momento_pattern_1.JPG";
-import image2 from "./images/momento_pattern_2.JPG";
+import image from "./images/memento_pattern.JPG";
+import image1 from "./images/memento_pattern_1.JPG";
+import image2 from "./images/memento_pattern_2.JPG";
 
 export default function App() {
   return (

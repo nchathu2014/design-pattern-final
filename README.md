@@ -27,8 +27,8 @@
           In JavaScript Mementos are easily implemented by serializing and
           de-serializing objects with JSON.
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/momento/src/images/momento_pattern.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/memento/src/images/memento_pattern.JPG?raw=true)
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/momento/src/images/momento_pattern_1.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/memento/src/images/memento_pattern_1.JPG?raw=true)
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/momento/src/images/momento_pattern_2.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/memento/src/images/memento_pattern_2.JPG?raw=true)
