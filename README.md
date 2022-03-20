@@ -8,10 +8,10 @@ Template Methods are frequently used in general purpose frameworks or libraries 
 
 An easy way to think of Template Method is that of an algorithm with holes (see diagram below). It is up to the developer to fill these holes with appropriate functionality for each step.
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/template_method.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/template-method/src/images/template_method.JPG?raw=true)
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/template_method_1.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/template-method/src/images/template_method_1.JPG?raw=true)
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/template_method_2.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/template-method/src/images/template_method_2.JPG?raw=true)
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/template_method_3.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/pattern/template-method/src/images/template_method_3.JPG?raw=true)
