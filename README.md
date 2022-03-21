@@ -1,11 +1,9 @@
-Resources:
+# Monkey Patching Design Pattern
 
-1. https://www.dofactory.com/javascript/design-patterns/abstract-factory
+Monkey Patching is the capability in JavaScript to swap out a function in a JavaScript object with your own function. This can come in handy, but also be dangerous. One of JavaScript's strengths is its ability to easily make changes to objects and modules. It also makes it fairly easy to introduce new bugs.
 
-2. https://riptutorial.com/javascript/topic/696/notifications-api
+This kind of functionality can also be found in languages like Objective-C and Swift where developers can swap out the functionality of methods in their classes using a runtime feature called 'Method Swizzling'.
 
-# Design Pattern Final
-
-Created with CodeSandbox
+This kind of functionality can also be found in languages like Objective-C and Swift where developers can swap out the functionality of methods in their classes using a runtime feature called 'Method Swizzling'.
 
 ![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/test.jpg?raw=true)
