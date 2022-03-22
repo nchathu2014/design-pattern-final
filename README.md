@@ -1,11 +1,15 @@
-Resources:
+# Software Design Principles - SOLID
 
-1. https://www.dofactory.com/javascript/design-patterns/abstract-factory
+S - Single Responsibility Principle
+A Class Should have just one reason to change
 
-2. https://riptutorial.com/javascript/topic/696/notifications-api
+Try to make every class responsible for a single part of the functionality provided by the software, and make that responsibility entirely encapsulated by (you can also say hidden within) the class.
 
-# Design Pattern Final
+The main goal of this principle is reducing complexity. You
+don’t need to invent a sophisticated design for a program that
+only has about 200 lines of code. Make a dozen methods pretty,
+and you’ll be fine.
 
-Created with CodeSandbox
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/SOLID/single-responsibility-principle/src/images/single_res_principle.JPG?raw=true)
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/master/src/images/test.jpg?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/SOLID/single-responsibility-principle/src/images/single_res_principle_1.JPG?raw=true)
