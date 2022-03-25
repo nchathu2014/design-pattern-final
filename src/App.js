@@ -7,6 +7,14 @@ import ComponentA from "./components/ComponentA";
 
 import SingletonCounter from "./utils/singleton";
 
+import CounterState from "./../src/utils/SingletonState";
+import Component from "./../src/components/Component";
+import Counter from "./../src/components/Counter";
+import { useCounter } from "./../src/hooks/useCounter";
+
+const counterState = CounterState.getInstance();
+counterState.setState({ count: 10 });
+
 export default function App() {
   const [count, setCount] = useState();
   useEffect(() => {
@@ -22,6 +30,14 @@ export default function App() {
     SingletonCounter.decrement();
     setCount(SingletonCounter.getCount());
   };
+
+  //----------------------
+
+  const [counter, increment, decrement] = useCounter(counterState, {
+    KEY: "count",
+  });
+  const incrementCounter = () => increment();
+  const decrementCounter = () => decrement();
 
   return (
     <div className="App">
@@ -45,6 +61,21 @@ export default function App() {
         handleIncrement={handleIncrement}
         handleDecrement={handleDecrement}
       />
+
+      <hr />
+      <main>
+        <Counter count={counter} />
+        <Component
+          title={"Component A"}
+          handleIncrement={incrementCounter}
+          handleDecrement={decrementCounter}
+        />
+        <Component
+          title={"Component B"}
+          handleIncrement={incrementCounter}
+          handleDecrement={decrementCounter}
+        />
+      </main>
     </div>
   );
 }
