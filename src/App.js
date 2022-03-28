@@ -52,7 +52,7 @@ export default function App() {
             </span>
           </li>
           <li>
-            Polymorphism (Many Form)
+            Polymorphism (Many Forms)
             <br />
             <img src={image4} width={600} height={300} />
             <br />
