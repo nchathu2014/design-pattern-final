@@ -65,4 +65,4 @@ Memory gets created, variables get a default value of undefined
 Phase 2: Execution Phase (Hoisting happens in this phase)
 JE Engine executes line by line
 
-![alt text](https://github.com/nchathu2014/design-pattern-final/blob/CORE/js/src/images/gce.JPG?raw=true)
+![alt text](https://github.com/nchathu2014/design-pattern-final/blob/CORE/js/src/images/gec.JPG?raw=true)
